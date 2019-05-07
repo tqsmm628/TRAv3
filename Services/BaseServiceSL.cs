@@ -16,7 +16,7 @@ namespace TRAv3.Services {
                     a.NameZh_tw,
                     FK_BaseCategory = BaseCategory.Rail,
                     FK_BaseSubCategory = BaseSubCategory.TRA,
-                    IsLiveData = false,
+                    a.IsLiveData,
                     IsHistoricalData = false,
                     a.SpecificationURL,
                     a.URL,

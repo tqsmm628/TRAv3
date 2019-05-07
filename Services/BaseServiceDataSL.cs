@@ -154,6 +154,7 @@ namespace TRAv3.Services {
                 URL = "{0}/v3/Rail/TRA/StationLiveBoard",
                 URL_Web = "{0}/v3/Rail/TRA/StationLiveBoard",
                 EnumID = 3213,
+                IsLiveData = true,
 
                 ID = "TRA_03014",
                 DataType = BaseServiceDetailDataType.即時到離站
@@ -165,7 +166,8 @@ namespace TRAv3.Services {
                 URL = "{0}/v3/Rail/TRA/TrainLiveBoard",
                 URL_Web = "{0}/v3/Rail/TRA/TrainLiveBoard",
                 EnumID = 3214,
-
+                IsLiveData = true,
+                
                 ID = "TRA_03015",
                 DataType = BaseServiceDetailDataType.即時位置
             };
@@ -198,6 +200,7 @@ namespace TRAv3.Services {
                 URL = "{0}/v3/Rail/TRA/News",
                 URL_Web = "{0}/v3/Rail/TRA/News",
                 EnumID = 3217,
+                IsLiveData = true,
 
                 ID = "TRA_03018",
                 DataType = BaseServiceDetailDataType.最新消息
@@ -209,6 +212,7 @@ namespace TRAv3.Services {
                 URL = "{0}/v3/Rail/TRA/Alert",
                 URL_Web = "{0}/v3/Rail/TRA/Alert",
                 EnumID = 3218,
+                IsLiveData = true,
 
                 ID = "TRA_03019",
                 DataType = BaseServiceDetailDataType.營運通阻
@@ -220,6 +224,7 @@ namespace TRAv3.Services {
         public Guid? FK_BaseDataType;
         public string NameZh_tw, SpecificationURL, URL, URL_Web;
         public int EnumID;
+        public bool IsLiveData;
 
         public string ID;
         public string DataType;
