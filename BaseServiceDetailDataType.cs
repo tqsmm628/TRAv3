@@ -16,7 +16,6 @@ namespace TRAv3
         public const string 營運通阻 = "營運通阻";
         public const string 跨運具轉乘 = "跨運具轉乘";
         public const string 路線轉乘 = "路線轉乘";
-        public const string 設施 = "設施";
         public const string 出入口 = "出入口";
     }
 }

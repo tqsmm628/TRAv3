@@ -47,7 +47,7 @@ namespace TRAv3.Services {
                 EnumID = 3203,
 
                 ID = "TRA_03004",
-                DataType = BaseServiceDetailDataType.設施
+                DataType = BaseServiceDetailDataType.場站
             };
             yield return new BaseServiceValueType {
                 FK_BaseDataType = null,
@@ -79,7 +79,8 @@ namespace TRAv3.Services {
                 URL_Web = "{0}/v3/Rail/TRA/TrainType",
                 EnumID = 3206,
 
-                ID = "TRA_03007"
+                ID = "TRA_03007",
+                DataType = BaseServiceDetailDataType.車輛
             };
             yield return new BaseServiceValueType {
                 FK_BaseDataType = BaseDataType.Fare,
